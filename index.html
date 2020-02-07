@@ -1,58 +1,133 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Baby Yoda</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha256-2YQRJMXD7pIAPHiXr0s+vlRWA7GYJEK0ARns7k2sbHY=" crossorigin="anonymous" />
-        <style>
-            img.bio-image { float: left; padding: 0rem 3rem 0rem 1rem; height: 18.5rem; }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="row">
-                <div class="twelve column">
-                    <!-- Bio Image -->
-                    <img class="bio-image" src="https://i.ebayimg.com/images/g/IeIAAOSwJBdd8w4E/s-l500.png" alt="bio image">
 
+<head>
+    <title>Maxwell Hampton</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+        integrity="sha256-2YQRJMXD7pIAPHiXr0s+vlRWA7GYJEK0ARns7k2sbHY=" crossorigin="anonymous" />
+    <style>
+        img.bio-image {
+            float: left;
+            padding: 0rem 5rem 0rem 2rem;
+            height: 22rem;
+        }
+
+        .main {
+            background: greenyellow;
+            color: black;
+        }
+
+        .header {
+            color: black;
+        }
+
+        .main {
+            color: black;
+        }
+
+        .supportability {
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+        }
+        .button {
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            display: flex;
+            outline: white;
+            outline-style: solid;
+            transition: ease-in; 
+        }
+        .hr {
+            border-top: black;
+        }
+    </style>
+    <script>
+        alert("Proceed with Caution, this page is 18+ only");
+    </script>
+    <script>
+        function changeBackgroundColor() {
+            const letters = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            document.body.style.background = color;
+        }
+    </script>
+
+    <button class="button" onclick="changeBackgroundColor()">Change Background Color</button>
+</head>
+
+<body class="main">
+    <div class="container">
+        <div class="row">
+            <div class="twelve column">
+                <!-- Bio Image -->
+                <img class="bio-image"
+                    src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/SpongeBob_SquarePants_character.svg/1200px-SpongeBob_SquarePants_character.svg.png"
+                    alt="bio image">
+                <div class="supportability">
                     <!-- Resume Title -->
-                    <h2>Scott Sword</h2>
-                    <h5>Web Developer</h5>
+                    <h2><i><b>Maxwell Keith Hampton</b></i></h2>
+                    <h5><B>Master of None</B></h5>
 
                     <!-- Contact Info -->
-                    <span><strong>Email:</strong> <a href="mailto:baby.yoda@meme.io">baby.yoda@meme.io</a></span><br>
+                    <span><strong>Email:</strong> <a href="mailto:maxwellkhampton@gmail.com">maxwellkhampton@gmail.com</a></span>
                     <span><strong>Phone:</strong> 208-829-2122</span>
+                    <span><strong>Github</strong> <a
+                            href="https://github.com/maxwellkhampton">maxwellkhampton</a></span>
+                    <span><strong>LinkedIn</strong> <a
+                            href="https://www.linkedin.com/in/maxwell-hampton/">maxwell-hampton</a></span>
                 </div>
             </div>
-
-            <hr />
-
-            <!-- Work History -->
-            <div class="row">
-                <div class="twelve column">
-                    <h4>Work History</h4>
-
-                    <h6><strong>Pied Piper</strong> 2017-Present</h6>
-                    <p>Beard twee live-edge, pop-up kogi pabst etsy shoreditch small batch vegan. Skateboard brooklyn gochujang 90's ennui pour-over before they sold out swag cliche wolf butcher cronut sriracha shoreditch bushwick. Activated charcoal jean shorts chillwave four dollar toast meggings health goth cornhole.</p>
-
-                    <h6><strong>Hooli</strong> 2014-2017</h6>
-                    <p>Beard twee live-edge, pop-up kogi pabst etsy shoreditch small batch vegan. Skateboard brooklyn gochujang 90's ennui pour-over before they sold out swag cliche wolf butcher cronut sriracha shoreditch bushwick. Activated charcoal jean shorts chillwave four dollar toast meggings health goth cornhole.</p>
-
-                    <h6><strong>Dunder Mifflin</strong> 2010-2014</h6>
-                    <p>Beard twee live-edge, pop-up kogi pabst etsy shoreditch small batch vegan. Skateboard brooklyn gochujang 90's ennui pour-over before they sold out swag cliche wolf butcher cronut sriracha shoreditch bushwick. Activated charcoal jean shorts chillwave four dollar toast meggings health goth cornhole.</p>
-                </div>
-            </div>
-
-            <!-- Education -->
-            <div class="row">
-                <div class="twelve column">
-                    <h4>Education</h4>
-
-                    <h6><strong>Super Hacker U</strong> 2010</h6>
-                    <p>Beard twee live-edge, pop-up kogi pabst etsy shoreditch small batch vegan. Skateboard brooklyn gochujang 90's ennui pour-over before they sold out swag cliche wolf butcher cronut sriracha shoreditch bushwick. Activated charcoal jean shorts chillwave four dollar toast meggings health goth cornhole.</p>
-
-                </div>
-            </div>
-
         </div>
-    </body>
+
+        <hr />
+
+        <!-- Work History -->
+
+        <div class="row">
+            <div class="twelve column">
+                <h4><b>Work History</b></h4>
+
+                <h6><strong>Intuit</strong> 2016-Present</h6>
+                <p>Beard twee live-edge, pop-up kogi pabst etsy shoreditch small batch vegan. Skateboard brooklyn
+                    gochujang 90's ennui pour-over before they sold out swag cliche wolf butcher cronut sriracha
+                    shoreditch bushwick. Activated charcoal jean shorts chillwave four dollar toast meggings health goth
+                    cornhole. dfgdfgdfgdfgdfgd</p>
+
+                <h6><strong>Hooli</strong> 2014-2017</h6>
+                <p>Beard twee live-edge, pop-up kogi pabst etsy shoreditch small batch vegan. Skateboard brooklyn
+                    gochujang 90's ennui pour-over before they sold out swag cliche wolf butcher cronut sriracha
+                    shoreditch bushwick. Activated charcoal jean shorts chillwave four dollar toast meggings health goth
+                    cornhole.</p>
+
+                <h6><strong>Dunder Mifflin</strong> 2010-2014</h6>
+                <p>Beard twee live-edge, pop-up kogi pabst etsy shoreditch small batch vegan. Skateboard brooklyn
+                    gochujang 90's ennui pour-over before they sold out swag cliche wolf butcher cronut sriracha
+                    shoreditch bushwick. Activated charcoal jean shorts chillwave four dollar toast meggings health goth
+                    cornhole.</p>
+            </div>
+        </div>
+
+        <!-- Education -->
+        <div class="row">
+            <div class="twelve column">
+                <h4>Education</h4>
+
+                <h6><strong>The College of Idaho</strong> 2010</h6>
+                <h6><strong>B.S. Biology</strong></h6>
+                <p>Beard twee live-edge, pop-up kogi pabst etsy shoreditch small batch vegan. Skateboard brooklyn
+                    gochujang 90's ennui pour-over before they sold out swag cliche wolf butcher cronut sriracha
+                    shoreditch bushwick. Activated charcoal jean shorts chillwave four dollar toast meggings health goth
+                    cornhole.</p>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
 </html>
